@@ -1,0 +1,54 @@
+.payment-options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 80%;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+.payment-card {
+  border-radius: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.9);
+  text-align: center;
+  transition: transform 0.3s ease;
+  padding: 20px;
+  max-width: 200px;
+  overflow: hidden;
+  color: gold;
+
+  &:hover {
+    transform: scale(1.05);
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+    p {
+      font-size: 25px;
+      color: gold;
+      text-shadow: 0 2px 6px rgba(0, 0, 0, 0.9);
+      margin-top: 10px;
+    }
+
+  }
+  h2 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: blue;
+    text-align: center;
+    width: 100%;
+  }
+
+}
+h2 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+  color: blue;
+  text-align: center;
+  width: 100%;
+}
